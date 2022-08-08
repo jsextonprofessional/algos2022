@@ -48,7 +48,7 @@ var twoSum = function(nums, target) {
 			if (nums[i] + nums[j] === target) {
 				output.push(i);
 				output.push(j);
-				console.log("yeet", output);
+				console.log(`nums: [${nums}], target: ${target}, output: [${output}]`);
 				return output;
 			}
 		}
@@ -57,6 +57,6 @@ var twoSum = function(nums, target) {
 	// when combo of two indexes = target, log two indexes as 
 };
 
-// twoSum(nums1, target1);
-// twoSum(nums2, target2);
+twoSum(nums1, target1);
+twoSum(nums2, target2);
 twoSum(nums3, target3);
